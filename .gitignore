@@ -1,0 +1,46 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.yml
+
+# Node (if tooling scripts are added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if evaluation/testing scripts are added later)
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Build/output artifacts
+dist/
+build/
+out/
+
+# Local scratch/testing files
+scratch/
+tmp/
+*.tmp
